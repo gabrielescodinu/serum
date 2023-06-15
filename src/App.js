@@ -5,7 +5,7 @@ import Features from "./components/Features";
 import Services from "./components/Services";
 import Blog from "./components/Blog";
 import Stats from "./components/Stats";
-import Gallery from "./components/Gallery";
+import Content from "./components/Content";
 import Team from "./components/Team";
 import Highlights from "./components/Highlights";
 import Testimonials from "./components/Testimonials";
@@ -25,7 +25,7 @@ const App = () => {
       <Services />
       <Blog />
       <Stats />
-      <Gallery />
+      <Content />
       <Team />
       <Highlights />
       <Testimonials />

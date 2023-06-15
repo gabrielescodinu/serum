@@ -56,7 +56,7 @@ const Services = () => {
                     <span className="inline-block w-1 h-1 ml-1 bg-primary rounded-full"></span>
                 </div>
 
-                <div className="mt-8 xl:mt-12 lg:flex lg:items-center">
+                <div className="mt-8 xl:mt-12 lg:flex lg:items-center gap-16">
                     <div className="grid w-full grid-cols-1 gap-8 lg:w-1/2 xl:gap-16 md:grid-cols-2">
                         {servicesData.components.map((component, index) => (
                             <div key={index} className="space-y-3">
@@ -70,7 +70,7 @@ const Services = () => {
                     </div>
 
                     <div className="flex lg:w-1/2 lg:justify-center">
-                        <img className="w-[28rem] h-[28rem] flex-shrink-0 object-cover xl:w-[34rem] xl:h-[34rem] lg:rounded-full shadow-primary shadow-2xl mt-16 lg:mt-0" src={servicesData.image} alt="" />
+                        <img className="w-full h-full flex-shrink-0 object-cover rounded-full shadow-primary shadow-2xl mt-16 lg:mt-0" src={servicesData.image} alt="" />
                     </div>
                 </div>
                 <div className="absolute inset-0 max-w-lg my-auto mr-auto h-72 blur-[118px] pointer-events-none" style={{ background: "linear-gradient(#6366f142, #6366f11a)" }}></div>
