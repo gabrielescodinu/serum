@@ -1,117 +1,181 @@
 import React from "react";
 
 const Team = () => {
-    const teamMembers = [
+    const teamData = [
         {
-            name: "John McCulling",
-            position: "Founder / CEO",
-            imageUrl:
-                "https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=256",
-            linkedin: '#',
-            twitter: '#',
+            name: "Alper Kamu",
+            role: "UI Developer",
+            image: "https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=256",
+            description: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+            socialMedia: [
+                {
+                    name: "Twitter",
+                    icon: (
+                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    ),
+                    url: "#",
+                },
+                {
+                    name: "Facebook",
+                    icon: (
+                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                        </svg>
+                    ),
+                    url: "#",
+                },
+                {
+                    name: "Instagram",
+                    icon: (
+                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                        </svg>
+                    ),
+                    url: "#",
+                },
+            ],
         },
         {
-            name: "Kate Berg",
-            position: "CFO",
-            imageUrl:
-                "https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=256",
-            linkedin: '#',
-            twitter: '#',
+            name: "Holden Caulfield",
+            role: "UI Developer",
+            image: "https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=256",
+            description: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+            socialMedia: [
+                {
+                    name: "Twitter",
+                    icon: (
+                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    ),
+                    url: "#",
+                },
+                {
+                    name: "Facebook",
+                    icon: (
+                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                        </svg>
+                    ),
+                    url: "#",
+                },
+                {
+                    name: "Instagram",
+                    icon: (
+                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                        </svg>
+                    ),
+                    url: "#",
+                },
+            ],
         },
         {
-            name: "Greg Jackson",
-            position: "CTO",
-            imageUrl:
-                "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&q=75&fit=crop&w=256",
-            linkedin: '#',
-            twitter: '#',
+            name: "Atticus Finch",
+            role: "UI Developer",
+            image: "https://images.unsplash.com/photo-1463453091185-61582044d556?auto=format&q=75&fit=crop&w=256",
+            description: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+            socialMedia: [
+                {
+                    name: "Twitter",
+                    icon: (
+                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    ),
+                    url: "#",
+                },
+                {
+                    name: "Facebook",
+                    icon: (
+                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                        </svg>
+                    ),
+                    url: "#",
+                },
+                {
+                    name: "Instagram",
+                    icon: (
+                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                        </svg>
+                    ),
+                    url: "#",
+                },
+            ],
         },
         {
-            name: "Robert Greyson",
-            position: "Creative Director",
-            imageUrl:
-                "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?auto=format&q=75&fit=crop&w=256",
-            linkedin: '#',
-            twitter: '#',
-        },
-        {
-            name: "John Roberts",
-            position: "Investor Relations",
-            imageUrl:
-                "https://images.unsplash.com/photo-1522529599102-193c0d76b5b6?auto=format&q=75&fit=crop&w=256",
-            linkedin: '#',
-            twitter: '#',
-        },
-        {
-            name: "Judy Amandez",
-            position: "Senior Art Director",
-            imageUrl:
-                "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?auto=format&q=75&fit=crop&w=256",
-            linkedin: '#',
-            twitter: '#',
-        },
-        {
-            name: "Rahul Williams",
-            position: "Creative Director",
-            imageUrl:
-                "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&q=75&fit=crop&w=256",
-            linkedin: '#',
-            twitter: '#',
-        },
-        {
-            name: "Ari Ferris",
-            position: "Marketing Analyst",
-            imageUrl:
-                "https://images.unsplash.com/photo-1562904403-a5106bef8319?auto=format&q=75&fit=crop&w=256",
-            linkedin: '#',
-            twitter: '#',
+            name: "Henry Letham",
+            role: "UI Developer",
+            image: "https://images.unsplash.com/photo-1529068755536-a5ade0dcb4e8?auto=format&q=75&fit=crop&w=256",
+            description: "DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.",
+            socialMedia: [
+                {
+                    name: "Twitter",
+                    icon: (
+                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    ),
+                    url: "#",
+                },
+                {
+                    name: "Facebook",
+                    icon: (
+                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                        </svg>
+                    ),
+                    url: "#",
+                },
+                {
+                    name: "Instagram",
+                    icon: (
+                        <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                        </svg>
+                    ),
+                    url: "#",
+                },
+            ],
         },
     ];
-    const Content = {
-        title: "Meet our Team",
-        description: `This is a section of some simple filler text, also known as placeholder text. It shares some characteristics of a real written text but is random or otherwise generated.`,
-    }
 
     return (
-        <section className="bg-secondary">
-            <div className="py-32">
-                <div className="mx-auto max-w-screen-xl px-4 md:px-8 relative">
-                    <div className="mb-10 md:mb-16">
-                        <h2 className="mb-4 text-center text-2xl font-bold text-gray-100 md:mb-6 lg:text-3xl">
-                            {Content.title}
-                        </h2>
-                        <p className="mx-auto max-w-screen-md text-center text-gray-300 md:text-lg">
-                            {Content.description}
-                        </p>
-                    </div>
-                    <div className="grid grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-4 lg:gap-x-8 lg:gap-y-12">
-                        {teamMembers.map((member, index) => (
-                            <div className="flex flex-col items-center" key={index}>
-                                <div className="mb-2 h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:mb-4 md:w-32 md:h-32">
-                                    <img src={member.imageUrl} alt={member.name} className="h-full w-full object-cover" />
-                                </div>
-                                <h3 className="text-gray-100 text-lg font-semibold mb-1">{member.name}</h3>
-                                <p className="text-gray-300 text-sm">{member.position}</p>
-                                <div className="flex justify-center mt-4">
-                                    <div className="flex gap-4">
-                                        <a href="/" target="_blank" className="text-gray-400 transition duration-100 hover:text-primary active:text-gray-600">
-                                            <svg className="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                                            </svg>
-                                        </a>
-                                        <a href="/" target="_blank" className="text-gray-400 transition duration-100 hover:text-primary active:text-gray-600">
-                                            <svg className="h-5 w-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
-                                            </svg>
-                                        </a>
-                                    </div>
+        <section className="text-gray-600 body-font py-32 relative">
+            <div className="container px-5 mx-auto">
+                <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+                    <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-800 sm:text-4xl md:mx-auto">
+                        <span className="relative inline-block">Our Team</span>
+                    </h2>
+                    <p className="text-base text-gray-500 md:text-lg">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+                </div>
+                <div className="flex flex-wrap -m-4">
+                    {teamData.map((member, index) => (
+                        <div key={index} className="p-4 lg:w-1/4 md:w-1/2">
+                            <div className="h-full flex flex-col items-center text-center">
+                                <img alt="team" className="flex-shrink-0 rounded-full w-40 h-40 object-cover object-center mb-4 shadow-primary shadow-2xl" src={member.image} />
+                                <div className="w-full">
+                                    <h2 className="title-font font-medium text-lg text-gray-900">{member.name}</h2>
+                                    <h3 className="text-gray-500 mb-3">{member.role}</h3>
+                                    <p className="mb-4">{member.description}</p>
+                                    <span className="inline-flex space-x-2">
+                                        {member.socialMedia.map((social, index) => (
+                                            <a key={index} className="text-primary" href={social.url}>
+                                                {social.icon}
+                                            </a>
+                                        ))}
+                                    </span>
                                 </div>
                             </div>
-                        ))}
-                    </div>
-                    <div className="absolute inset-0 max-w-md mx-auto h-72 blur-[118px]" style={{ background: "linear-gradient(#14b8a642, #14b8a61a)" }}></div>
+                        </div>
+                    ))}
                 </div>
             </div>
+            <div className="absolute inset-0 max-w-xl mx-auto h-72 blur-[118px] pointer-events-none" style={{ background: "linear-gradient(#6366f142, #6366f11a)" }}></div>
         </section>
     );
 };

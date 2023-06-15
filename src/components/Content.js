@@ -64,7 +64,7 @@ const Content = () => {
                     ))}
                 </div>
             </div>
-            <div className="absolute inset-0 max-w-xl mx-auto my-auto h-72 blur-[118px]" style={{ background: "linear-gradient(#6366f142, #6366f11a)" }}></div>
+            <div className="absolute inset-0 max-w-xl mx-auto my-auto h-72 blur-[118px] pointer-events-none" style={{ background: "linear-gradient(#6366f142, #6366f11a)" }}></div>
         </section>
     );
 };
