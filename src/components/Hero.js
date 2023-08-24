@@ -1,59 +1,62 @@
-import React from "react";
+import React from 'react';
 
 const Hero = () => {
     const heroData = {
-        subtitle: "Very proud to introduce",
-        title: "Revolutionary way to build the web",
-        startNowButtonLabel: "Start now",
-        takeTourButtonLabel: "Take tour",
+        subtitle: 'Very proud to introduce',
+        title: 'Revolutionary way to build the web',
+        startNowButtonLabel: 'Start now',
+        takeTourButtonLabel: 'Take tour',
         socialLinks: [
             {
-                icon:
-                    "https://cdn.discordapp.com/attachments/1053327836695511130/1117746972103293442/Gabriele_digital_art_purple_colors_drawing_4e3b6a74-9765-47f0-9323-eb1eaf99b9f4.png",
-                url: "#",
+                icon: 'https://cdn.discordapp.com/attachments/1053327836695511130/1117746972103293442/Gabriele_digital_art_purple_colors_drawing_4e3b6a74-9765-47f0-9323-eb1eaf99b9f4.png',
+                url: '#',
             },
             {
-                icon:
-                    "https://cdn.discordapp.com/attachments/1053327836695511130/1117747120255891458/Gabriele_digital_art_blue_color_drawing_b4ebc2f5-0e1e-4b6c-9bc4-7d3f9fd26ea7.png",
-                url: "#",
+                icon: 'https://cdn.discordapp.com/attachments/1053327836695511130/1117747120255891458/Gabriele_digital_art_blue_color_drawing_b4ebc2f5-0e1e-4b6c-9bc4-7d3f9fd26ea7.png',
+                url: '#',
             },
             {
-                icon:
-                    "https://cdn.discordapp.com/attachments/1053327836695511130/1117747251378437636/Gabriele_digital_art_purple_colors_drawing_a86e3c07-47d6-48ef-98c2-4685ea7ab104.png",
-                url: "#",
+                icon: 'https://cdn.discordapp.com/attachments/1053327836695511130/1117747251378437636/Gabriele_digital_art_purple_colors_drawing_a86e3c07-47d6-48ef-98c2-4685ea7ab104.png',
+                url: '#',
             },
             {
-                icon:
-                    "https://cdn.discordapp.com/attachments/1053327836695511130/1117747329442289664/Gabriele_digital_art_blue_color_drawing_5c6f47f5-9865-4b66-af5f-81223e277aec.png",
-                url: "#",
+                icon: 'https://cdn.discordapp.com/attachments/1053327836695511130/1117747329442289664/Gabriele_digital_art_blue_color_drawing_5c6f47f5-9865-4b66-af5f-81223e277aec.png',
+                url: '#',
             },
         ],
-        backgroundImage:
-            "https://media.discordapp.net/attachments/1053327836695511130/1118616226160193707/Gabriele_An_isometric_image_of_an_computer_in_the_style_of_whit_e7d6c129-bb59-4bb3-93a2-a0fd733f8bb6.png?width=2506&height=1404",
-        photoCredit: "Photo by Fakurian Design",
+        backgroundImage: 'https://media.discordapp.net/attachments/1053327836695511130/1118616226160193707/Gabriele_An_isometric_image_of_an_computer_in_the_style_of_whit_e7d6c129-bb59-4bb3-93a2-a0fd733f8bb6.png?width=2506&height=1404',
+        photoCredit: 'Photo by Fakurian Design',
     };
 
     return (
         <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 relative">
             <div className="grid gap-10 lg:grid-cols-2 min-h-screen py-32">
                 <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
-
                     <div className="max-w-xl mb-6">
                         <h2 className="ax-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
-                            <span className="text-primary">
-                                Find your
-                            </span>
+                            <span className="text-primary">Find your</span>
                             <br></br>
                             <span className="text-gray-800">business online</span>
                         </h2>
-                        <p className="text-base text-gray-700 md:text-lg">
-                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                            quae. explicabo.
-                        </p>
+                        <p className="text-base text-gray-700 md:text-lg">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.</p>
                     </div>
                     <div>
-                        <a href="/" aria-label="" className="inline-flex items-center font-semibold transition-colors duration-200 text-white py-4 px-8 bg-primary hover:bg-gray-700 shadow-primary shadow-2xl rounded-lg" > Learn more <svg className="inline-block w-3 ml-2" fill="currentColor" viewBox="0 0 12 12" > <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" /> </svg> </a>
+                        <a
+                            href="/"
+                            aria-label=""
+                            className="inline-flex items-center font-semibold transition-colors duration-200 text-white py-4 px-8 bg-primary hover:bg-gray-700 shadow-primary shadow-2xl rounded-lg"
+                        >
+                            {' '}
+                            Learn more{' '}
+                            <svg
+                                className="inline-block w-3 ml-2"
+                                fill="currentColor"
+                                viewBox="0 0 12 12"
+                            >
+                                {' '}
+                                <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />{' '}
+                            </svg>{' '}
+                        </a>
                     </div>
                 </div>
                 <div className="flex items-center justify-center -mx-4 lg:pl-8">
@@ -78,7 +81,10 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className="absolute inset-0 max-w-xl my-auto mr-auto h-72 blur-[118px] pointer-events-none" style={{ background: 'linear-gradient(#6366f142, #6366f11a)' }}></div>
+            <div
+                className="absolute inset-0 max-w-xl my-auto mr-auto h-72 blur-[118px] pointer-events-none"
+                style={{ background: 'linear-gradient(#6366f142, #6366f11a)' }}
+            ></div>
         </div>
     );
 };
